@@ -6,9 +6,7 @@ local keymap = vim.keymap -- for conciseness
 -- remove highlight
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "(n)o (h)ighlight" })
 
--- visual movement
-keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "(n)o (h)ighlight" })
 
 -- trigger formating
 keymap.set("n", "<leader>pp", function()
