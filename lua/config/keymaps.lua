@@ -3,9 +3,11 @@
 -- Add any additional keymaps here
 local keymap = vim.keymap -- for conciseness
 
+-- show hover lsp desc
+keymap.set("n", "T", "<cmd>lua vim.lsp.buf.hover()<CR>", { noremap = true, desc = "show hover lsp desc" })
+
 -- remove highlight
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "(n)o (h)ighlight" })
-
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "(n)o (h)ighlight" })
 
 -- trigger formating

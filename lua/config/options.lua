@@ -18,3 +18,6 @@ opt.updatetime = 50
 
 -- misc
 opt.iskeyword:append("-")
+
+vim.o.guifont = "Comic Code Ligatures:h12" -- text below applies for VimScript
+vim.g.neovide_transparency = 0.8
