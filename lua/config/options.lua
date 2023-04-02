@@ -15,9 +15,15 @@ opt.signcolumn = "yes"
 opt.scrolloff = 8
 opt.colorcolumn = "80"
 opt.updatetime = 50
+opt.cursorline = false
 
 -- misc
 opt.iskeyword:append("-")
 
+-- neovide configs
 vim.o.guifont = "Comic Code Ligatures:h12" -- text below applies for VimScript
 vim.g.neovide_transparency = 0.8
+vim.g.neovide_floating_blur_amount_x = 2.0
+vim.g.neovide_floating_blur_amount_y = 2.0
+vim.g.neovide_hide_mouse_when_typing = true
+vim.g.neovide_confirm_quit = true
