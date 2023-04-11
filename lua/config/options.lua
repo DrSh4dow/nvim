@@ -17,6 +17,9 @@ opt.colorcolumn = "80"
 opt.updatetime = 50
 opt.cursorline = false
 
+-- split screen behavior
+opt.splitkeep = "screen"
+
 -- misc
 opt.iskeyword:append("-")
 
