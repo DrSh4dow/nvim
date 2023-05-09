@@ -10,9 +10,6 @@ keymap.set("n", "T", "<cmd>lua vim.lsp.buf.hover()<CR>", { noremap = true, desc 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "(n)o (h)ighlight" })
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "(n)o (h)ighlight" })
 
--- vim wiki
-keymap.set("n", "<leader>ww", ":VimwikiIndex<CR>", { desc = "(w)iki (w)iki" })
-
 -- trigger formating
 keymap.set("n", "<leader>pp", function()
   vim.lsp.buf.format({
