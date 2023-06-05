@@ -1,13 +1,5 @@
 return {
   {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        tailwindcss = {},
-      },
-    },
-  },
-  {
     "NvChad/nvim-colorizer.lua",
     enabled = false,
     opts = {
