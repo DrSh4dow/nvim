@@ -1,24 +1,26 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
-local opt = vim.opt -- for conciseness
 
-opt.writebackup = true
-opt.undofile = true
+-- Enable LazyVim auto format
+vim.g.autoformat = false
+
+vim.opt.writebackup = true
+vim.opt.undofile = true
 
 -- appearance
-opt.termguicolors = true
+vim.opt.termguicolors = true
 -- opt.signcolumn = "yes"
 -- opt.colorcolumn = "80"
-opt.scrolloff = 8
-opt.updatetime = 50
-opt.cursorline = false
+vim.opt.scrolloff = 8
+vim.opt.updatetime = 50
+vim.opt.cursorline = false
 
 -- split screen behavior
-opt.splitkeep = "screen"
+vim.opt.splitkeep = "screen"
 
 -- append - as a keyword for word selection
-opt.iskeyword:append("-")
+vim.opt.iskeyword:append("-")
 vim.o.guifont = "Comic Code Ligatures:h12" -- text below applies for VimScript
 
 -- neovide configs
