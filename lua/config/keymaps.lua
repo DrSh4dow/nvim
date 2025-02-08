@@ -8,8 +8,5 @@ keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "(n)o (h)ighlight" })
 
 -- trigger formating
 keymap.set("n", "<leader>pp", function()
-  require("conform").format({
-    timeout_ms = 5000,
-    lsp_fallback = true,
-  })
+  require("conform").format()
 end, { noremap = true, desc = "(p)retty (p)rint" })
