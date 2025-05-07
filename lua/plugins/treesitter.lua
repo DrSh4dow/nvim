@@ -22,7 +22,6 @@ return {
         "typescript",
         "vim",
         "yaml",
-        "org",
       },
     },
   },
