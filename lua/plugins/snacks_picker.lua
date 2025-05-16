@@ -4,7 +4,6 @@ return {
   opts = {
     picker = {
       hidden = true,
-      ignored = true,
     },
   },
 }
