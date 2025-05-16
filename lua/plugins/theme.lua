@@ -11,9 +11,15 @@ return {
   -- },
 
   -- add gruvbox
-  { "ellisonleao/gruvbox.nvim", opts = {
-    transparent_mode = true,
-  } },
+  {
+    "ellisonleao/gruvbox.nvim",
+    opts = {
+      transparent_mode = true,
+      overrides = {
+        NormalFloat = { fg = "#ebdbb2", bg = "#282828" },
+      },
+    },
+  },
 
   -- Configure LazyVim to load gruvbox
   {
