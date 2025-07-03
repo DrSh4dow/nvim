@@ -31,3 +31,6 @@ vim.g.neovide_hide_mouse_when_typing = true
 vim.g.neovide_confirm_quit = true
 
 vim.g.zig_fmt_autosave = 0
+
+-- views can only be fully collapsed with the global statusline
+vim.opt.laststatus = 3
